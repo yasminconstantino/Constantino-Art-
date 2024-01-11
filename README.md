@@ -3,7 +3,7 @@
 
   <img src="constantino.gif" width="500"/>
   
-  <p>You can check the page, and see it working <a href="https://yasminconstantino.github.io/my/">here</a></p>
+  <p>You can check the page, and see it working <a href="https://yasminconstantino.github.io/Constantino-Art-/">here</a></p>
 
   <h4> Languages and Technologies:</h4>
   <div>
@@ -18,7 +18,7 @@
   <details>
     <summary>Clique aqui para ler em português</summary>
     <p>EEsse é um site bem simples que eu fiz apenas pra mostrar os meus desenhos, ele não foi feito para funcionar como uma loja, é apenas um jeito criativo de mostrar a minha arte..</p>
-    <p>Você pode acessar a página e ver ela funcionando <a href="https://yasminconstantino.github.io/my/">aqui</a></p>
+    <p>Você pode acessar a página e ver ela funcionando <a href="https://yasminconstantino.github.io/Constantino-Art-/">aqui</a></p>
     <h4>Linguagens e tecnologias utilizadas:</h4>
   <div>
     <img src="html (2).png" width="38"/>

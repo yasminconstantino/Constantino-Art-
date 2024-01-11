@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Constantino Art</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="assets/logo/art.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+<body>
+  <section id="bag" class="closeBag">
+    <div id="header-bag">
+      <p>Meu carrinho</p>
+      <button id="close-bag">
+        <span class="material-icons-round">
+          clear
+        </span>
+      </button>
+    </div>
+    <section id="container-products-bag">
+        
+    </section> 
+    <div id="footerBag">
+      <div id="valueTotalBag"></div>
+      <button id="finalizeBuy" class="text">Finalizar compra</button>
+    </div>
+  </section>
+  <header>
+    <a href="index.html">
+      <div id="logo">
+        <span class="material-icons-round">
+          <img id="logo-gho" src="assets/logo/art.png" alt="">
+        </span>
+          <div id="letters-logo">&nbsp<span id="initial-letters">Constantino</span>Art</div>
+      </div>
+    </a>
+    <div id="botoes">
+      <div id="iconsBtn">
+        <div id="login" class="text">
+          <img id="imgLogin" src="my/assets/img/1682959258459.jpeg" alt="">
+          Olá, Nimsay
+        </div>
+        <div id="icons">
+          <button id="notifications" class="btnIcons">
+            <div id="icoNotification" class="numNotification">2</div>
+            <span class="material-icons-outlined">
+              notifications
+            </span>
+          </button>
+          <button id="favorite" class="btnIcons">
+            <span class="material-icons-outlined">
+              favorite_border
+            </span>
+          </button>
+          <button id="open-bag" class="btnIcons">
+            <div id="bagNotification" class="numNotification"></div>
+            <span class="material-icons-outlined">
+              local_mall
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main id="mainDetails">
+    <div id="mainContent">
+      <section id="container-product">
+        <div id="cardDetailsProduct" class="cardDetail">
+          <div id="blockImg">
+            <div id="blockImgPq">
+              <img id="imgPq1" class="imgPq" src="" alt="">
+              <img id="imgPq2" class="imgPq" src="" alt="">
+              <img id="imgPq3" class="imgPq" src="" alt="">
+              <img id="imgPq4" class="imgPq" src="" alt="">
+            </div>
+            <div id="blockImgMain">
+              <img class="imgDetailProduct" id="imgMain" src="" alt="Produto produzido e vendido por Constantino Art"/>
+            </div>
+          </div>
+          <div id="blockDescriptionDetails">
+            <div id="blockName">
+              <h1 id="nameDatails"></h1>
+              <div class="divStar">
+                <span class="star material-icons-round">star</span>
+                <span class="star material-icons-round">star</span>
+                <span class="star material-icons-round">star</span>
+                <span class="star material-icons-round">star</span>
+                <span class="star material-icons-round">star</span>
+              </div>
+            </div>
+            <div>
+              <p id="priceDetails" class="detailsProduc"></p>
+              <p id="payment"></p>
+              <p class="detailsColor"><a class="link" href="#">Ver meios de pagamento</a></p>
+            </div>
+            <div>
+              <div id="cep">
+                <input id="getCep" type="text" placeholder="Digite seu CEP">
+                <span id="searchCep" class="material-icons-outlined">
+                  search
+                  </span>
+              </div>
+              <div id="blockMsgCep">
+              </div>
+              <p class="detailsColor"><a class="link" href="#">Mais formas de entrega</a></p>
+            </div>
+            <div id="blockButtons">
+              <div class="blockQtdProduct">
+                <button class="btnQtdDetails btnDecrement">-</button>
+                  <div id="qtd">1</div>
+                <button class="btnQtdDetails btnIncrement">+</button>
+              </div>
+              <div id="blockButtonsBuy">
+                <button id="buy" class="btnBuy">Comprar</button>
+                <button id="addBag" class="btnBuy">Adicionar ao carrinho</button>
+              </div>
+            </div>    
+          </div>
+        </div>
+      </section>
+      <section id="textProduct">
+        <h4>DESCRIÇÃO</h4>
+        <p id="description"></p>
+        <h4>DETALHES</h4>
+        <p>
+          Todos usando Papel Canson 180g especifico para desenho; Lápis hb, 2b, 6b e 8b ou Lapis de cor supersoft Faber Castell ou Tinta Aquarela. Feitos á mão individualmente, com todo o cuidado que somente Constantino Art pode proporcionar. Obras unicas e com muito significado. Todos são edições limitadas.
+        </p>
+      
+      </section>
+      <section id="productSimilar">
+        <div class='card'>
+          <img class="imgProduct imgProduct1 opacity1" src="./assets/img/product-1-1.jpg"
+           alt="Produto 1 da Magazine Hashtag"> 
+          <img class='imgProduct imgProduct2 opacity0' src="./assets/img/product-1-2.jpg" 
+          alt="Produto 1 da Magazine Hashtag">
+          <p class='description text'>Dog Fiona - Constantino Art (YC Art)</p>
+            <div class="blockPrice">
+              <div>
+                <p class='price text'>
+                  R$249,90
+                </p>
+                <p class='priceBefore text'>
+                  R$274,89
+                </p>
+              </div>
+              <button id="btnProduct-1" class="btnAdd"> 
+                <span class="material-icons-outlined">
+                  local_mall
+                </span>
+              </button>
+            </div>
+        </div>
+        <div class='card'>
+          <img class="imgProduct imgProduct1 opacity1" src="./assets/img/product-4-1.jpg"
+           alt="Produto 1 da Magazine Hashtag"> 
+          <img class='imgProduct imgProduct2 opacity0' src="./assets/img/product-4-2.jpg" 
+          alt="Produto 1 da Magazine Hashtag">
+          <p class='description text'>Carro Fiat 147 - Constantino Art (YC Art)</p>
+            <div class="blockPrice">
+              <div>
+                <p class='price text'>
+                  R$249.90
+                </p>
+                <p class='priceBefore text'>
+                  R$274.89
+                </p>
+              </div>
+              <button id="btnProduct-1" class="btnAdd"> 
+                <span class="material-icons-outlined">
+                  local_mall
+                </span>
+              </button>
+            </div>
+        </div>
+        <div class='card'>
+          <img class="imgProduct imgProduct1 opacity1" src="./assets/img/product-11-1.jpg"
+           alt="Produto 1 da Magazine Hashtag"> 
+          <img class='imgProduct imgProduct2 opacity0' src="./assets/img/product-11-2.jpg" 
+          alt="Produto 1 da Magazine Hashtag">
+          <p class='description text'>Carro VW Gol barnco - Constantino Art (YC Art)</p>
+            <div class="blockPrice">
+              <div>
+                <p class='price text'>
+                  R$249.90
+                </p>
+                <p class='priceBefore text'>
+                  R$274.89
+                </p>
+              </div>
+              <button id="btnProduct-1" class="btnAdd"> 
+                <span class="material-icons-outlined">
+                  local_mall
+                </span>
+              </button>
+            </div>
+        </div>
+        <div class='card'>
+          <img class="imgProduct imgProduct1 opacity1" src="./assets/img/product-14-1.jpg"
+           alt="Produto 1 da Magazine Hashtag"> 
+          <img class='imgProduct imgProduct2 opacity0' src="./assets/img/product-14-2.jpg" 
+          alt="Produto 1 da Magazine Hashtag">
+          <p class='description text'>Dog Ravenna - Constantino Art (YC Art)</p>
+            <div class="blockPrice">
+              <div>
+                <p class='price text'>
+                  R$249.90
+                </p>
+                <p class='priceBefore text'>
+                  R$274.89
+                </p>
+              </div>
+              <button id="btnProduct-1" class="btnAdd"> 
+                <span class="material-icons-outlined">
+                  local_mall
+                </span>
+              </button>
+            </div>
+        </div>
+        <div class='card'>
+          <img class="imgProduct imgProduct1 opacity1" src="./assets/img/product-2-1.jpg"
+           alt="Produto 1 da Magazine Hashtag"> 
+          <img class='imgProduct imgProduct2 opacity0' src="./assets/img/product-2-2.jpg" 
+          alt="Produto 1 da Magazine Hashtag">
+          <p class='description text'>Dog Conan - Constantino Art (YC Art)</p>
+            <div class="blockPrice">
+              <div>
+                <p class='price text'>
+                  R$249.90
+                </p>
+                <p class='priceBefore text'>
+                  R$274.89
+                </p>
+              </div>
+              <button id="btnProduct-1" class="btnAdd"> 
+                <span class="material-icons-outlined">
+                  local_mall
+                </span>
+              </button>
+            </div>
+        </div>
+  </main>
+  <footer>
+    <div>
+      <span class="material-icons-round iconFooter">
+      credit_card
+      </span>
+      Escolha como pagar
+Com o Mercado Pago, você paga com cartão, boleto ou Pix. Você também pode pagar em até 12x no boleto com o Mercado Crédito.
+
+Como pagar com Mercado Pago
+    </div>
+    <div>
+      <span class="material-icons-round iconFooter">
+      inventory_2
+      </span>
+      Frete grátis a partir de R$ 79
+Ao se cadastrar no Mercado Livre, você tem frete grátis em milhares de produtos.
+    </div>
+    <div>
+      <span class="material-icons-round iconFooter">
+      verified_user
+      </span>
+      Segurança, do início ao fim
+Você não gostou do que comprou? Devolva! No Mercado Livre não há nada que você não possa fazer, porque você está sempre protegido.
+    </div>
+  </footer>
+  <script type="module" src="src/detailsProduct.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+
+</html>

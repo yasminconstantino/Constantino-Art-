@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Constantino ART</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="assets/logo/art.png" type="imagex/png">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+<body>
+  <section id="bag" class="closeBag">
+    <div id="header-bag">
+      <p class="bold">Meu carrinho</p>
+      <button id="close-bag">
+        <span class="material-icons-round">
+          clear
+        </span>
+      </button>
+    </div>
+    <section id="container-products-bag">
+
+    </section>
+    <div id="footerBag">
+      <div id="valueTotalBag"></div>
+      <button id="finalizeBuy" class="text">Finalizar compra</button>
+    </div>
+  </section>
+  <header>
+    <div id="logo">
+      <span class="material-icons-round">
+      <img id="logo-gho" src="assets/logo/art.png" alt="">
+      </span>
+      <div id="letters-logo">&nbsp<span id="initial-letters">Constantino</span>Art</div>
+    </div>
+    <div id="blockSearch">
+      <input id="search-text" type="text">
+      <span id="icoSearch" class="material-icons-round">
+        search
+      </span>
+    </div>
+    <div id="botoes">
+      <div id="iconsBtn">
+        <div id="login" class="text">
+          <img id="imgLogin" src="assets/img/1682959258459.jpeg" alt="">
+          Olá, Nimsay
+        </div>
+        <div id="icons">
+          <button id="notifications" class="btnIcons">
+            <div id="icoNotification" class="numNotification">2</div>
+            <span class="material-icons-outlined">
+              notifications
+            </span>
+          </button>
+          <button id="favorite" class="btnIcons">
+            <span class="material-icons-outlined">
+              favorite_border
+            </span>
+          </button>
+          <button id="open-bag" class="btnIcons">
+            <div id="bagNotification" class="numNotification"></div>
+            <span class="material-icons-outlined">
+              local_mall
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main id="mainIndex">
+    <div id="listOptions">
+      <span class="material-icons-round">
+        menu
+      </span>
+    </div>
+    <div id="blockListOptions">
+      <nav>
+        <ul>
+          <a href="#" class="btnFilter">Desenhos de animais</a>
+          <a href="#" class="btnFilter">&</a>
+          <a href="#" class="btnFilter">Desenhos de carros</a>
+        </ul>
+      </nav>
+      <span id="closeMenu" class="material-icons-round">
+        close
+      </span>
+    </div>
+    <div id="slider">
+      <section id="slides">
+        <div id="img1" class="slide first">
+          <picture>
+            <source media="(max-width: 500px)" srcset="assets/img/imgCapa1-pq.jpg">
+            <img src="assets/img/imgCapa1.jpg" alt="capa">
+          </picture>
+        </div>
+        <div class="slide">
+          <picture>
+            <source media="(max-width: 500px)" srcset="assets/img/imgCapa2-pq.jpg">
+            <img src="assets/img/imgCapa2.jpg" alt="capa">
+          </picture>
+        </div>
+        <div class="slide">
+          <picture>
+            <source media="(max-width: 500px)" srcset="assets/img/imgCapa3-pq.jpg">
+            <img src="assets/img/imgCapa3.jpg" alt="capa">
+          </picture>
+        </div>
+        <div class="slide">
+          <picture>
+            <source media="(max-width: 500px)" srcset="assets/img/imgCapa41-pq.jpg">
+            <img src="assets/img/imgCapa5.jpg" alt="capa">
+          </picture>
+        </div>
+      </section>
+      <div id="btnImgTransition">
+        <div id="1" class="btnImgCapa"></div>
+        <div id="2" class="btnImgCapa"></div>
+        <div id="3" class="btnImgCapa"></div>
+        <div id="4" class="btnImgCapa"></div>
+      </div>
+    </div>
+    <div id="iconsSale">
+      <div>
+        <span class="material-icons-outlined">
+          discount
+        </span>
+        <div class="LegendsSales">
+          <div class="legendsTitle">Descontos</div>
+          <div class="legendsComplements">no pagamento</div>
+        </div>
+      </div>
+      <div>
+        <span class="material-icons-outlined">
+          delivery_dining
+        </span>
+        <div class="LegendsSales">
+          <div class="legendsTitle">Entrega </div>
+          <div class="legendsComplements">grátis</div>
+        </div>
+      </div>
+      <div>
+        <span class="material-icons-outlined">
+          support_agent
+        </span>
+        <div class="LegendsSales">
+          <div class="legendsTitle">Atendimento</div>
+          <div class="legendsComplements">via WhatsApp</div>
+        </div>
+      </div>
+      <div>
+        <span class="material-icons-outlined">
+          verified_user
+        </span>
+        <div class="LegendsSales">
+          <div class="legendsTitle">Compre com</div>
+          <div class="legendsComplements">tranquilidade</div>
+        </div>
+      </div>
+
+    </div>
+    <section id="container-product">
+      <div id="container-card-product"></div>
+    </section>
+  </main>
+  <footer>
+    <div>
+      <span class="material-icons-round iconFooter">
+        credit_card
+      </span>
+
+      <p>
+        Escolha como pagar
+        Com o Mercado Pago, você paga com cartão, boleto ou Pix. Você também pode pagar em até 12x no boleto com o Mercado
+        Crédito.
+        Como pagar com Mercado Pago
+      </p>
+    </div>
+    <div>
+      <span class="material-icons-round iconFooter">
+        inventory_2
+      </span>
+      <p>
+        Frete grátis a partir de R$ 200
+        Ao se cadastrar no Mercado Livre, você tem frete grátis em milhares de produtos.
+      </p>
+      </div>
+    <div>
+      <span class="material-icons-round iconFooter">
+        verified_user
+      </span>
+      <p>
+        Segurança, do início ao fim
+        Você não gostou do que comprou? Devolva! No Mercado Livre não há nada que você não possa fazer, porque você está
+        sempre protegido.
+      </p>
+    </div>
+  </footer>
+  <script type="module" src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  
+</body>
+
+</html>

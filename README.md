@@ -17,7 +17,7 @@
 <section>
   <details>
     <summary>Clique aqui para ler em português</summary>
-    <p>EEsse é um site bem simples que eu fiz apenas pra mostrar os meus desenhos, ele não foi feito para funcionar como uma loja, é apenas um jeito criativo de mostrar a minha arte..</p>
+    <p>Esse é um site bem simples que eu fiz apenas pra mostrar os meus desenhos, ele não foi feito para funcionar como uma loja, é apenas um jeito criativo de mostrar a minha arte.</p>
     <p>Você pode acessar a página e ver ela funcionando <a href="https://yasminconstantino.github.io/Constantino-Art-/">aqui</a></p>
     <h4>Linguagens e tecnologias utilizadas:</h4>
   <div>

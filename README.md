@@ -1,7 +1,7 @@
  <h1>Constantino Art Store</h1>  <img src="assets/logo/art.png" width="36"/>
   <p>It's a simple website that i made just to show my drawings, it's not supposed to work completely as an store, it's just a creative way to show you all my art work.</p>
 
-  <img src="constantino.gif" width="500"/>
+  <img src="constantinoArt.gif" width="500"/>
   
   <p>You can check the page, and see it working <a href="https://yasminconstantino.github.io/Constantino-Art-/">here</a></p>
 
